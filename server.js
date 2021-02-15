@@ -7,12 +7,7 @@ const PORT = process.env.PORT || 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json())
 
-const mydata =[{
-  customerName: 'myName',
-  phoneNumber: 231321, 
-  customerEmail: 'example@examp.com',
-  customerID: '56Dsd',
-}];
+const mydata =[];
 
 console.log(mydata);
 
