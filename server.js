@@ -30,7 +30,7 @@ app.post('/api/tables', (req, res) => {
 
 app.get('/api/tables', (req, res) => {
   let reservations = [];
-  for (i = 0; i < 4; i++) {
+  for (i = 0; i < 5; i++) {
     if (mydata[i]) {
       reservations.push( mydata[i]);
     }
@@ -40,7 +40,7 @@ app.get('/api/tables', (req, res) => {
 
 app.get('/api/waitlist', (req, res) => {
   let reservations = [];
-  for (i = 4; i < mydata.length; i++) {
+  for (i = 5; i < mydata.length; i++) {
     if (mydata[i]) {
       reservations.push( mydata[i]);
     }
