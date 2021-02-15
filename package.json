@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^15.8.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "hot-restaurant",
+  "description": "* Description: Basic app demonstrating Node and Express with vanilla javascript. Overall purpose is to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list. * Live Demo: <https://hot-restaurant-fsf.herokuapp.com/>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MushtaqSafie/Hot-Restaurant.git"
+  },
+  "author": "mushtaq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MushtaqSafie/Hot-Restaurant/issues"
+  },
+  "homepage": "https://github.com/MushtaqSafie/Hot-Restaurant#readme"
+}
